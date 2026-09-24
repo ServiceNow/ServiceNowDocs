@@ -4,7 +4,7 @@ ServiceNow AI Platform™ product documentation with the content format optimize
 
 > NOTE: This repository does not contain any media objects (images, etc.). As it is intended for LLM consumption and not human viewing, images are omitted. Human readers can find all images and other media objects at the official [product documentation site](https://www.servicenow.com/docs).
 
-Australia release family documentation.
+Brazil release family documentation.
 
 ## Refresh cadence
 
@@ -21,6 +21,8 @@ normally at least monthly, sometimes more often.
   ```
 
 ## Change log
+- __24 Sept 2026__:
+  * Brazil Early Availability (EA) release
 - __10 Sept 2026__:
   * September docs refresh
 - __28 August 2026__:
