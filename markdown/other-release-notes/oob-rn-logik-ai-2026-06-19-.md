@@ -1,6 +1,6 @@
 ---
-title: Logik.ai 2026/06/19 release notes
-description: Logik.ai is a high-performance Commerce Logic Engine that complements Salesforce CPQ and eCommerce applications. This document outlines everything you need to know about new features and fixes made in the upcoming Logik.ai release.
+title: ServiceNow CPQ 2026/06/19 release notes
+description: ServiceNow CPQ is a high-performance Commerce Logic Engine that complements Salesforce CPQ and eCommerce applications. This document outlines everything you need to know about new features and fixes made in the upcoming ServiceNow CPQ release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/other-release-notes/oob-rn-logik-ai-2026-06-19-.html
 release: other
@@ -10,9 +10,9 @@ reading_time_minutes: 2
 breadcrumb: [Logik.io available versions, OOB Other release notes]
 ---
 
-# Logik.ai 2026/06/19 release notes
+# ServiceNow CPQ 2026/06/19 release notes
 
-Logik.ai is a high-performance Commerce Logic Engine that complements Salesforce CPQ and eCommerce applications. This document outlines everything you need to know about new features and fixes made in the upcoming Logik.ai release.
+ServiceNow CPQ is a high-performance Commerce Logic Engine that complements Salesforce CPQ and eCommerce applications. This document outlines everything you need to know about new features and fixes made in the upcoming ServiceNow CPQ release.
 
 ## Schedule
 
@@ -51,7 +51,7 @@ This release version includes the following fixes.
 ## Additional resources
 
 -   Request new features or enhancements through the [Idea portal](https://support.servicenow.com/ideas) on [Now Support](https://support.servicenow.com/now).
--   Connect with other Logik.io users at [Now Community](https://www.servicenow.com/community/)
+-   Connect with other ServiceNow CPQ users at [Now Community](https://www.servicenow.com/community/)
 
 **Parent Topic:**[Logik.io available versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-io.md)
 
